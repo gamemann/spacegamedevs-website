@@ -55,10 +55,7 @@ a.active,a:hover{
     transition: .5s;
 }
 
-.banner1{
+.about-descrip{
+    color: azure;
     text-align: center;
-}
-
-.bannerimg{
-    border-radius: 5px;
 }
