@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 .header{
-    min-height: 100vh;
+    min-height: 1vh;
     width: 100%;
     background-color: #22272e;
     background-position: center;
@@ -25,7 +25,7 @@ label.logo{
     font-weight: bold;
 }
 
-nav{
+.main-nav-bar{
     background: #2d333b;
     height: 80px;
     width: 100%;
@@ -55,10 +55,50 @@ a.active,a:hover{
     transition: .5s;
 }
 
+.section-partition{
+    background: #2d333b;
+    height: 80px;
+    width: 100%;
+}
+
+.section-about-desc{
+    min-height: 73vh;
+    width: 100%;
+    background-color: #22272e;
+    background-position: center;
+    position: relative;
+}
+
 .about-descrip{
     color: azure;
     text-align: center;
     font-family: Segoe UI;
     font-size: 20px;
     padding: 2px 200px;
+}
+
+.social-links{
+    min-height: 1vh;
+    width: 100%;
+    background-color: #22272e;
+    background-position: center;
+    position: relative;
+}
+
+.footer{
+    min-height: 20vh;
+    width: 100%;
+    background-color: #2d333b;
+    background-position: center;
+    position: relative;
+}
+
+.footer-text1{
+    color: azure;
+    text-align: center;
+}
+
+.footer-text2{
+    color: azure;
+    text-align: center;
 }
