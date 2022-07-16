@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 .header{
-    min-height: 100vh;
+    min-height: 0vh;
     width: 100%;
     background-color: #22272e;
     background-position: center;
@@ -25,7 +25,7 @@ label.logo{
     font-weight: bold;
 }
 
-nav{
+.main-nav-bar{
     background: #2d333b;
     height: 80px;
     width: 100%;
@@ -61,4 +61,68 @@ a.active,a:hover{
 
 .bannerimg{
     border-radius: 5px;
+}
+
+.home-page-content1{
+    min-height: 20vh;
+    width: 100%;
+    background-color: #22272e;
+    background-position: center;
+    position: relative;
+}
+
+.SGDLogo1{
+    padding: 10px 10px;
+}
+
+.front-page-desc1{
+    color: azure;
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-size: 20px;
+    float: inline-start;
+    word-wrap: normal;
+}
+
+.sflink{
+    padding: 2px 2px;
+    border-radius: 4px;
+}
+
+.section-partition{
+    background: #2d333b;
+    height: 80px;
+    width: 100%;
+}
+
+.YT-channel-section{
+    min-height: 45vh;
+    width: 100%;
+    background-color: #22272e;
+    background-position: center;
+    position: relative;
+}
+
+.YT-channel-trailer{
+    color: azure;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer{
+    min-height: 20vh;
+    width: 100%;
+    background-color: #2d333b;
+    background-position: center;
+    position: relative;
+}
+
+.footer-text1{
+    color: azure;
+    text-align: center;
+}
+
+.footer-text2{
+    color: azure;
+    text-align: center;
 }

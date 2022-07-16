@@ -58,4 +58,7 @@ a.active,a:hover{
 .about-descrip{
     color: azure;
     text-align: center;
+    font-family: Segoe UI;
+    font-size: 20px;
+    padding: 2px 200px;
 }
