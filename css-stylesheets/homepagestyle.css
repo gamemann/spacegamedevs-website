@@ -6,5 +6,73 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    background-color: #22272e;
 }
+
+/*  Start Header Section */
+
+.header{
+    background: #2d333b;
+    height: 80px;
+    width: 100%;
+}
+
+.sidemenu{
+    line-height: 2px;
+    float: left;
+}
+
+.logo{
+    color: azure;
+    font-family: Orbitron;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+}
+
+.page-indicator{
+    float: right;
+    color: azure;
+    font-family: Orbitron;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #ffffff52;
+    padding: 4px 10px;
+    border-radius: 10px;
+    text-align: right;
+    margin: -32px 10px;
+}
+
+/*  End Header Section */
+
+/*  Start Bio-Short Section */
+
+.bio-short{
+    background-color: #22272e;
+    height: 544px;
+    width: 100%;
+}
+
+.bio-short-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid #707070;
+    border-radius: 50px;
+}
+
+.intro01{
+    font-family: Segoe UI;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+background-color: #22272e;
+*/
