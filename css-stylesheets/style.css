@@ -1,0 +1,19 @@
+/* Whole Page */
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: #22272e;
+}
+
+.content{
+    background-color: #22272e;
+    color: azure;
+    font-family: Orbitron;
+    font-weight: Bold;
+    font-size: 40px;
+    text-align: center;
+}

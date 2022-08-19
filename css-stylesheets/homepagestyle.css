@@ -1,0 +1,145 @@
+/* Whole Page */
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/*  Start Header Section */
+
+.header{
+    background: #2d333b;
+    height: 80px;
+    width: 100%;
+}
+
+.sidemenu{
+    line-height: 2px;
+    float: left;
+}
+
+.logo{
+    color: azure;
+    font-family: Orbitron;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+}
+
+.page-indicator{
+    float: right;
+    color: azure;
+    font-family: Orbitron;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #ffffff52;
+    padding: 4px 10px;
+    border-radius: 10px;
+    text-align: right;
+    margin: -32px 10px;
+}
+
+/*  End Header Section */
+
+/*  Start Bio-Short Section */
+
+.bio-short{
+    background-color: #22272e;
+    height: 544px;
+    width: 100%;
+}
+
+.bio-short-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid #707070;
+    border-radius: 50px;
+}
+
+.intro01{
+    font-family: Segoe UI;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: azure;
+    line-height: 40px;
+}
+
+.about01{
+    font-family: Segoe UI;
+    font-size: 30px;
+    font-weight: semibold;
+    text-align: center;
+    color: azure;
+    line-height: 40px;
+    margin: 0px 633px;
+}
+
+/*  End Bio-Short Section */
+
+/* Vertical Borders */
+
+.vert-border-medium{
+    position: relative;
+    z-index: 10;
+    margin: 49px 60px;
+    border: 10px solid #707070;
+    border-radius: 10px
+}
+
+.vert-border-medium01{
+    position: relative;
+    z-index: 10;
+    margin: 45px 60px;
+    border: 10px solid #707070;
+    border-radius: 10px
+}
+
+/* Start About-Me Section */
+
+.about-me{
+    height: 1000px;
+    width: 100%;
+    background-color: #22272e;
+}
+
+.spacebg01{
+    position: absolute;
+    opacity: 20%;
+    height: 1000px;
+    width: 100%;
+}
+
+.about-me-header{
+    font-family: Orbitron;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: azure;
+    line-height: 144px;
+}
+
+.about-me-desc{
+    font-family: Segoe UI;
+    font-size: 40px;
+    font-weight: semibold;
+    text-align: center;
+    color: azure;
+    line-height: 53px;
+    margin: 0px 348px;
+}
+
+
+/*
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+background-color: #22272e;
+*/
