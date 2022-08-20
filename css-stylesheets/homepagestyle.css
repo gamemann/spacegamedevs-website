@@ -116,6 +116,9 @@
 }
 
 .about-me-header{
+    position: relative;
+    z-index: 10;
+    align-items: center;
     font-family: Orbitron;
     font-size: 40px;
     font-weight: bold;
@@ -125,6 +128,8 @@
 }
 
 .about-me-desc{
+    position: absolute;
+    z-index: 10;
     font-family: Segoe UI;
     font-size: 40px;
     font-weight: semibold;
