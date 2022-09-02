@@ -182,6 +182,62 @@
 
 /* Start What-I-Use Section */
 
+.what-i-use{
+    height: 1500px; /* Design calls for 1587px */
+    width: 100%;
+    background-color: #22272e;
+}
+
+.what-i-use-headertext{
+    position: relative;
+    z-index: 10;
+    align-items: center;
+    font-family: Orbitron;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: azure;
+    line-height: 144px;
+}
+
+.what-i-use-content{
+    position: relative;
+    z-index: 10;
+    align-items: center;
+    font-family: Orbitron;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: azure;
+    line-height: 144px;
+}
+
+.what-i-use-text{
+    margin-left: 40%;
+    margin-right: 40%;
+    position: relative;
+    z-index: 10;
+    align-items: center;
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: azure;
+    line-height: 27px;
+}
+
+.vert-border-end_what-i-use{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 3114px;
+    left: 3.125%;
+    width: 93.75%;
+    z-index: 10;
+    border: 10px solid #707070;
+    border-radius: 10px
+}
+
 /* End What-I-Use Section */
 
 /* Start Footer Section */
@@ -193,8 +249,8 @@
 }
 
 .footertext1{
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
     color: azure;
     font-family: Segoe UI;
     font-weight: bold;

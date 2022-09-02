@@ -61,8 +61,8 @@
 }
 
 .link-homepage{
-    margin-left: 46%;
-    margin-right: 46%;
+    margin-left: 44%;
+    margin-right: 44%;
     align-items: center;
     text-align: center;
     background-color: #ffffff52;
@@ -71,8 +71,18 @@
 }
 
 .link-aboutpage{
-    margin-left: 46%;
-    margin-right: 46%;
+    margin-left: 44%;
+    margin-right: 44%;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff52;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+
+.link-projectspage{
+    margin-left: 44%;
+    margin-right: 44%;
     align-items: center;
     text-align: center;
     background-color: #ffffff52;
