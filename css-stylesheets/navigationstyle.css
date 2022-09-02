@@ -1,0 +1,91 @@
+/* Whole Page */
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/*  Start Header Section */
+
+.header{
+    background: #2d333b;
+    height: 80px;
+    width: 100%;
+}
+
+.sidemenu{
+    line-height: 2px;
+    float: left;
+}
+
+.logo{
+    color: azure;
+    font-family: Orbitron;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+}
+
+.page-indicator{
+    float: right;
+    color: azure;
+    font-family: Orbitron;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #ffffff52;
+    padding: 4px 10px;
+    border-radius: 10px;
+    text-align: right;
+    margin: -32px 10px;
+}
+
+/* End Header Section */
+
+/* Start Navigation Links */
+
+.navigationlinks{
+    background-color: #22272e;
+    height: 849px;
+    width: 100%;
+}
+
+.nvlinks{
+    color: azure;
+    font-family: Orbitron;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.link-homepage{
+    margin-left: 44%;
+    margin-right: 44%;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff52;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+
+.link-aboutpage{
+    margin-left: 44%;
+    margin-right: 44%;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff52;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+
+.link-projectspage{
+    margin-left: 44%;
+    margin-right: 44%;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff52;
+    padding: 4px 10px;
+    border-radius: 10px;
+} 
