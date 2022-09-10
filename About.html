@@ -1,22 +1,113 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - SpaceGameDev's Website</title>
     <link rel="shortcut icon" type="image/ico" href="images\SGDProfileImageLightNew1Round.png"/>
-    <link rel="stylesheet" href="css-stylesheets\aboutpagestyle.css">
+    <link rel="stylesheet" href="css-stylesheets\Aboutpagestyle.css">
+    <!-- Start - Google Fonts and Icons Preconnects-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- End - Google Fonts and Icons Preconnects-->
   </head>
+
   <body>
-   <section class="content">
-    <p class="content-text">
+    <section class="header">
+      <div class="sidemenu">
       <br>
-      This page is currently under construction.
-      <br><br>
-      <a href="Navigation.html" style="color:#28a3e9">Click here to return to the Navigation Centre.</a>
+      <!--
+      <img src="images\UI\menu_FILL1_wght400_GRAD0_opsz48.png" width="150%">
+      -->
+      <a href="Navigation.html"><img src="images\UI\menu_FILL1_wght400_GRAD0_opsz48.png" alt="Navigation" title="Navigation Centre" width="150%"/></a>
+      </div>
+      <div class="logo">
+      <br>
+      SpaceGameDev
+      </div>
+      <div class="page-indicator">
+        About
+      </div>
+    </section>
+
+    <!-- Back to Top button taken from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+      //Get the button:
+      mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
+
+    <!-- End Back to Top button -->
+
+    <!-- Start Main-Content -->
+
+    <section class="main-content">
+    <br><br><br><br>
+    <p class="what-i-do-h">What I do</p>
+    <br>
+    <p class="what-i-do-b">Software & Game Development as well as 3D Art</p>
+    <hr class="vert-border01">
+    <br><br><br><br><br><br><br><br><br>
+    <p class="my-experience-h">My Experience</p>
+    <br>
+    <p class="my-experience-b">I am a student with limited experience in software such as Blender, Unreal Engine, and Visual Studio.</p>
+    <hr class="vert-border02">
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <p class="my-projects-h">My Projects</p>
+    <br>
+    <p class="my-projects-b">I have my various projects listed on my <a href="Projects.html" style="color:#28a3e9">Projects Page</a></p>
+    <hr class="vert-border03">
+    <br><br><br><br><br><br><br><br>
+    <p class="contact-info-h">Contact Info</p>
+    <br>
+    <p class="contact-info-b">Business Email: spacegamedev568@gmail.com<br><br>Discord Username: SpaceGameDev568 #0596</p>
+    <hr class="vert-border04">
+    <br><br><br><br><br><br><br><br>
+    <p class="my-social-media-h">My Social Media</p>
+    <br>
+    <p class="social-links">
+    <a href="https://www.twitch.tv/spacegamedev568" style="color:#a970ff">Twitch</a>
+    <a href="https://www.youtube.com/channel/UCit0jzcccpV9MtCYVvdle4w" style="color:#ff0000">Youtube</a>
+    <!-- <a href="">Discord</a> -->
+    <a href="https://github.com/SpaceGameDev568" style="color:#28a3e9">GitHub</a>
     </p>
-   </section>
+
+    
+    <!-- End Main-Content -->
+
+    </section>
+    <section class="footer">
+      <div class="footertext1">
+        <br><br>
+        <p>
+          This website is a personal project by SpaceGameDev568. You can visit the GitHub Repository <a href="https://github.com/SpaceGameDev568/spacegamedevs-website" style="color:#28a3e9">here</a>.
+        </p>
+        <br>
+        <p>
+          Site last updated: 9/10/2022
+        </p>
+      </div>
+    </section>
   </body>
 </html>

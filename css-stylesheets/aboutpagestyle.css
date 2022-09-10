@@ -8,19 +8,219 @@
     box-sizing: border-box;
 }
 
-.content{
+/*  Start Header Section */
+
+.header{
     background: #2d333b;
-    height: 929px;
+    height: 80px;
     width: 100%;
 }
 
-.content-text{
-    margin-left: 30%;
-    margin-right: 30%;
-    position: absolute;
+.sidemenu{
+    line-height: 2px;
+    float: left;
+}
+
+.logo{
+    color: azure;
+    font-family: Orbitron;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+}
+
+.page-indicator{
+    float: right;
+    color: azure;
+    font-family: Orbitron;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #ffffff52;
+    padding: 4px 10px;
+    border-radius: 10px;
+    text-align: right;
+    margin: -32px 10px;
+}
+
+/*  End Header Section */
+
+/* Start Back to Top button modified from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #707070;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 30px; /* Default 18px*/
+    font-family: Orbitron;
+    font-weight: bold
+  }
+  
+  #myBtn:hover {
+    background-color: #5a5a5a;
+  }
+
+/* End Back to Top button */
+
+.main-content{
+    height: 1633px;
+    width: 100%;
+    background-color: #22272e;
+}
+
+.what-i-do-h{
     color: azure;
     font-family: Orbitron;
     font-size: 40px;
     font-weight: bold;
+    text-align: center;
+}
+
+.what-i-do-b{
+    color: azure;
+    font-family: Segoe UI;
+    font-size: 30px;
+    font-weight: semibold;
+    text-align: center;
+}
+
+.vert-border01{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 312px;
+    left: 29.166%;
+    width: 41.666%;
+    z-index: 10;
+    border: 10px solid #707070;
+    border-radius: 10px
+}
+
+.my-experience-h{
+    color: azure;
+    font-family: Orbitron;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.my-experience-b{
+    margin-left: 35%;
+    margin-right: 35%;
+    color: azure;
+    font-family: Segoe UI;
+    font-size: 30px;
+    font-weight: semibold;
+    text-align: center;
+    line-height: 40px;
+}
+
+.vert-border02{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 702px;
+    left: 29.166%;
+    width: 41.666%;
+    z-index: 10;
+    border: 10px solid #707070;
+    border-radius: 10px
+}
+
+.my-projects-h{
+    color: azure;
+    font-family: Orbitron;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.my-projects-b{
+    color: azure;
+    font-family: Segoe UI;
+    font-size: 30px;
+    font-weight: semibold;
+    text-align: center;
+}
+
+.vert-border03{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 999px;
+    left: 29.166%;
+    width: 41.666%;
+    z-index: 10;
+    border: 10px solid #707070;
+    border-radius: 10px
+}
+
+.contact-info-h{
+    color: azure;
+    font-family: Orbitron;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-info-b{
+    color: azure;
+    font-family: Segoe UI;
+    font-size: 30px;
+    font-weight: semibold;
+    text-align: center;
+}
+
+.vert-border04{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 1297px;
+    left: 29.166%;
+    width: 41.666%;
+    z-index: 10;
+    border: 10px solid #707070;
+    border-radius: 10px
+}
+
+.my-social-media-h{
+    color: azure;
+    font-family: Orbitron;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.social-links{
+    font-family: Segoe UI;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Start Footer Section */
+
+.footer{
+    background: #2d333b;
+    height: 200px;
+    width: 100%;
+}
+
+.footertext1{
+    margin-left: 30%;
+    margin-right: 30%;
+    color: azure;
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-size: 20px;
     text-align: center;
 }
