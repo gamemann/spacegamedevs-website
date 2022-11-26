@@ -1,37 +1,52 @@
 /* Whole Page */
 
+section{
+    position: relative;
+    padding: 15px;
+}
+
+h1,h2,h3{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+p{
+    margin-bottom: 1em;
+}
+
 *{
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    overflow-x: hidden;
+    word-wrap: break-word;
 }
 
 /*  Start Header Section */
 
 .header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
     background: #2d333b;
-    height: 80px;
-    width: 100%;
+    align-items: center;   
 }
 
 .sidemenu{
     line-height: 2px;
-    float: left;
 }
 
 .logo{
     color: azure;
     font-family: Orbitron;
-    font-size: 50px;
+    font-size: 3em;
     font-weight: bold;
-    text-align: center;
-    line-height: 25px;
 }
 
 .page-indicator{
-    float: right;
     color: azure;
     font-family: Orbitron;
     font-size: 30px;
@@ -39,8 +54,6 @@
     background-color: #ffffff52;
     padding: 4px 10px;
     border-radius: 10px;
-    text-align: right;
-    margin: -32px 10px;
 }
 
 /*  End Header Section */
@@ -75,7 +88,6 @@
 
 .bio-short{
     background-color: #22272e;
-    height: 544px;
     width: 100%;
 }
 
@@ -116,9 +128,6 @@
 .vert-border-medium01{
     margin-left: auto;
     margin-right: auto;
-    position: absolute;
-    top: 614px;
-    left: 3.125%;
     width: 93.75%;
     z-index: 10;
     border: 10px solid #707070;
@@ -128,9 +137,6 @@
 .vert-border-medium02{
     margin-left: auto;
     margin-right: auto;
-    position: absolute;
-    top: 1615px;
-    left: 3.125%;
     width: 93.75%;
     z-index: 10;
     border: 10px solid #707070;
@@ -142,20 +148,22 @@
 /* Start About-Me Section */
 
 .about-me{
-    height: 1000px;
+    padding: 128px !important;
     width: 100%;
     background-color: #22272e;
+    padding: 15px;
 }
 
 .spacebg01{
     position: absolute;
     opacity: 20%;
-    height: 1000px;
+    height: 100%;
     width: 100%;
+    top: 0px;
+    left: 0px;
 }
 
 .about-me-header{
-    position: relative;
     z-index: 10;
     align-items: center;
     font-family: Orbitron;
@@ -167,7 +175,6 @@
 }
 
 .about-me-desc{
-    position: absolute;
     z-index: 10;
     font-family: Segoe UI;
     font-size: 40px;
@@ -183,7 +190,6 @@
 /* Start What-I-Use Section */
 
 .what-i-use{
-    height: 1500px; /* Design calls for 1587px */
     width: 100%;
     background-color: #22272e;
 }
@@ -201,7 +207,6 @@
 }
 
 .what-i-use-content{
-    position: relative;
     z-index: 10;
     align-items: center;
     font-family: Orbitron;
@@ -215,7 +220,6 @@
 .what-i-use-text{
     margin-left: 40%;
     margin-right: 40%;
-    position: relative;
     z-index: 10;
     align-items: center;
     font-family: Segoe UI;
@@ -227,11 +231,6 @@
 }
 
 .vert-border-end_what-i-use{
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    top: 3114px;
-    left: 3.125%;
     width: 93.75%;
     z-index: 10;
     border: 10px solid #707070;
@@ -244,7 +243,6 @@
 
 .footer{
     background: #2d333b;
-    height: 200px;
     width: 100%;
 }
 
